@@ -4,11 +4,7 @@
 package actividad_5;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+    public int sumar(int num1, int num2) {
+        return num1+num2;
     }
 }
